@@ -5,14 +5,16 @@
     bottom: 0;
     padding: 12px;
     width: 300px;
-    border: 3px solid rgb(0, 68, 255);
 }
+
+
+/* sidebar-navigation */
+
 
 .sidebar-navigation{
     background-color: #121212;
     border-radius: 8px;
     padding: 16px 0px 0px 16px;
-    border: 3px solid red;
 }
 
 
@@ -21,7 +23,6 @@
     padding: 16px 0px 0px 16px;
     background-color: #121212;
     border-radius: 8px;
-    border: 3px solid rgb(255, 196, 0);
 }
 
 .sidebar-navigation .logo img{
@@ -30,9 +31,8 @@
 
 
 .sidebar nav ul{
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 0px 20px 10px 20px;
-    border: 3px solid rgb(0, 255, 242);
 
 }
 
@@ -45,6 +45,155 @@
 .sidebar nav ul li a{
     color: #b3b3b3;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 17px;
 }
+
+
+
+
+
+
+/* .Biblioteca */
+.Biblioteca{
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.biblioteca-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.biblioteca-content .bibioteca-btn{
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+
+    
+
+}
+
+.Biblioteca .biblioteca-content .fa{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+
+
+}
+
+.biblioteca-content .fa-plus{
+  margin: 20px 10px;
+}
+
+
+
+/* section */
+
+.section-playlist{
+    display: flex;
+    background-color: #242424;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+    border-radius: 15px;
+}
+
+.section-playlist .section-playlist-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist-content .text {
+    padding-bottom: 14px;
+    color: white;
+}
+
+.section-playlist-content .title{
+    font-weight: 700;
+}
+
+.section-playlist-content .subtitle{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.section-playlist-content .section-playlis-btn{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: none;
+    width: 113px;
+}
+
+
+/* cookies */
+.cookies{
+    margin: 25px 20px;
+
+}
+
+.cookies a {
+    color: #b3b3b3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.cookies a:hover{
+    text-decoration: underline;
+}
+
+
+/* btn Linguagem */
+
+.Linguagem .btn-linguagem{
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    font-weight: bold;
+    width: 170px;
+    margin: 3px;
+    padding: 8px;
+    border-radius: 15px;
+
+}
+
+
+
+
+
+

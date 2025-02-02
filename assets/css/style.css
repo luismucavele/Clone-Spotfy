@@ -6,5 +6,6 @@ box-sizing: border-box;
 
 body{
     background-color: black;
+    font-family: var(--font-dm-sans);
 }
 

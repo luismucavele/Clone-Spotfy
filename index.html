@@ -9,11 +9,12 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/sidebar.css">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
+    <link rel="stylesheet" href="assets/css/Var.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
     <title>Spotify</title>
   </head>
   <body>
@@ -25,23 +26,93 @@
           </a>
         </div>
 
-        <div>
+        
           <ul>
             <li>
               <a href="">
-                <span class="bi bi-house-door-fill"></span>
+                <span class="fa fa-home"></span>
                 <span>Início</span>
               </a>
             </li>
             <li>
               <a href="">
-                <span class="bi bi-search"></span>
+                <span class="fa fa-search"></span>
                 <span>Buscar</span>
               </a>
             </li>
           </ul>
-        </div>
+      
       </nav>
+
+      <div class="Biblioteca">
+        <div class="biblioteca-content">
+          <button class="bibioteca-btn"> 
+            <span class="fa fas fa-book"></span>
+            <span>Sua Biblioteca</span>
+          
+          </button>
+          <span class="fa fa-plus"></span>
+        </div>
+
+
+        <section class="section-playlist">
+          <div class="section-playlist-content">
+            <span class="text title">Crie sua primeira playlist</span>
+            <span class="text subtitle">É facil, vamos te ajudar.</span>
+            <button class="section-playlis-btn">
+              <span>Criar Playlist</span>
+            </button>
+          </div>
+        </section>
+
+        <div class="cookies">
+          <a href="#">Cookies</a>
+        </div>
+
+        <div class="Linguagem">
+          <button class="btn-linguagem">
+            <span></span>
+            <span class="fa fa-globe"></span>
+            <span>Português do Brasil</span>
+          </button>
+        </div>
+
+      </div>
+
     </div>
+
+    <main>
+      <div class="main-conteiner">
+        <nav class="header-navgation">
+          <div class="navgation">
+            <button class="arrow-left">
+              <img src="assets/icons/small-left.png" alt="seta esquerda">
+            </button>
+            <button class="arrow-right">
+              <img src="assets/icons/small-right.png" alt="seta direita">
+            </button>
+            <div class="header-search">
+              <img src="assets/icons/search.png" alt="">
+              <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?">
+            </div>
+          </div>
+          <div class="header-login">
+            <button class="subscribe">Inscreva-se</button>
+            <button class="login">Entrar</button>
+          </div>
+        </nav>
+      </div>
+    </main>
+
+    <footer class="footer-subscribe">
+      <div class="footer-content">
+        <span class="footer-text1">TESTAR O PREMIUM DE GRAÇA</span>
+        <span class="footer-text2">Inscreve-se para curtir música Ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</span>
+      </div>
+      <div class="footer-btn">
+        <button >Inscreva-se grátis</button>
+      </div>
+      
+    </footer>
   </body>
 </html>
